@@ -1,9 +1,7 @@
-
 import React from 'react';
 import { Check, Mail, Globe, Key, Code, Settings } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
 
 const Index = () => {
   const timelineSteps = [
@@ -142,37 +140,6 @@ const Index = () => {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="text-center mt-16">
-          <Card className="max-w-2xl mx-auto bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200">
-            <CardHeader>
-              <CardTitle className="text-2xl">Ready to Get Started?</CardTitle>
-              <CardDescription className="text-lg">
-                Once you complete these steps, you'll have a powerful email system that can grow with your application.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button asChild className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                  <a href="https://resend.com" target="_blank" rel="noopener noreferrer">
-                    Get Started with Resend
-                  </a>
-                </Button>
-                <Button variant="outline" asChild>
-                  <a href="https://supabase.com" target="_blank" rel="noopener noreferrer">
-                    Open Supabase Dashboard
-                  </a>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Footer */}
-        <div className="text-center mt-16 text-muted-foreground">
-          <p>Need help? Check the documentation for both services or reach out to their support teams.</p>
         </div>
       </div>
     </div>
