@@ -88,7 +88,7 @@ const Index = () => {
       <div className="container mx-auto px-4 py-12">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-black mb-6">
             Send Emails Like a Pro
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
